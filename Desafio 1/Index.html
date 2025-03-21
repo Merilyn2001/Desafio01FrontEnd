@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio 1 do Programa Trilhas.</title>
+</head>
+<body>
+    <h1>Clique nos botões para executar os exercícios!</h1>
+    
+    <button onclick="executarExercicio1()">Exercício 1</button>
+    <button onclick="executarExercicio2()">Exercício 2</button>
+
+    <script>
+        function executarExercicio1() {
+            let script = document.createElement("script");
+            script.src = "exercicio1.js";
+            document.body.appendChild(script);
+        }
+
+        function executarExercicio2() {
+            let script = document.createElement("script");
+            script.src = "exercicio2.js";
+            document.body.appendChild(script);
+        }
+    </script>
+
+</body>
+</html>
